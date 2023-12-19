@@ -78,10 +78,7 @@ export default function NavBar() {
         <div className="container mx-auto">
           <div className="flex items-center gap-x-1">
             <Button fullWidth variant="text" size="sm" className="" onClick={()=>navigate('/cart')}>
-              <span>Log In</span>
-            </Button>
-            <Button fullWidth variant="gradient" size="sm" className="">
-              <span>Sign in</span>
+              <span>Cart</span>
             </Button>
           </div>
         </div>
